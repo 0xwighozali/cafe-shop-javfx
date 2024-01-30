@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 22, 2023, 7:13:37 PM
+    Author     : 0xwighozali
+*/
+
+.login-background {
+    -fx-background-color: linear-gradient(to bottom right, #3d7dc7, #0655ae);
+}
+
+.btn-login{
+    -fx-background-color: #106ccf;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.btn-login:hover{
+    -fx-background-color: #0766AD;
+}
+
+.head-label-login{
+    -fx-border-color: #0655ae;
+    -fx-border-width: 0 0 0 3px;
+    -fx-padding: 0 0 0 5px;
+}
+
+.textfield-login{
+    -fx-background-color: transparent;
+    -fx-border-color:  linear-gradient(to bottom right, #3d7dc7, #0655ae);
+    -fx-border-width: .55px;
+}
+
+.textfield-login:focused{
+    -fx-border-width: 1px;
+}
+
+.white-bg{
+    -fx-background-color: fff;
+}
+.transparent-bg{
+    -fx-background-color: transparent;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.nav-form-header{
+    -fx-background-color: #0aa3ff;
+}
+.nav-form{
+    -fx-background-color:  linear-gradient(to bottom right, #3d7dc7, #0655ae);
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #3d7dc7, #0655ae);
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 5px;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #3d7dc7, #0655ae);
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-backgrond-insets: 0 0 0 0;
+}
+
+.table-view .column-header , .filter{
+    -fx-background-color : transparent;
+    -fx-size: 40px;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill : #fff;
+}
+
+.btn-add{
+    -fx-background-color: green;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-fill : #fff;
+}
+
+.btn-add:hover{
+    -fx-background-color: #0766AD;
+}
+
+.btn-romove{
+    -fx-background-color: #D9534F;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-fill : #fff;
+}
+
+.btn-remove:hover{
+    -fx-background-color: #EA4335;
+}
+
+.centered-anchor-pane {
+    -fx-alignment: center;
+}
